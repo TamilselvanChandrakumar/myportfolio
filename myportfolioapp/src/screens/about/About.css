@@ -1,0 +1,31 @@
+.about{
+    display: flex;
+}
+
+.imagesec{
+    width: 37%;
+    height: 100vh;
+    background-image: url('/home/tamilselvan/Documents/portfolio/myportfolio/myportfolioapp/src/image/Picsart_23-06-11_13-50-53-028.jpg');
+    background-size: auto;
+}
+.aboutcontent{
+    width:63% ;
+    height: 100vh;
+    background-color: rgb(31, 31, 31);
+}
+
+@media (max-width:700px){
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .imagesec{
+        width: 100%;
+        height: 100vh;
+        background-size: auto;
+    }
+    .aboutcontent{
+        width: 100%;
+        height: 70vh;
+    }
+}

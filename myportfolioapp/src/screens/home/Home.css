@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.home{
+    display: flex;
+    background-color: rgb(31, 31, 31);
+    /* width: 100%; */
+    height: 100vh;
+    color: white;
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.home .homecontent .text1{
+    font-size: 27px;
+}
+.home .homecontent .text2{
+    font-size: 75px;
+    font-weight: 400;
+    margin-left: -3px;
+}
+.home .homecontent .text3{
+    font-size: 27px;
+}
+.home .homecontent .text3 span{
+    color: crimson;
+}
+
+.hiremebtn{
+    background-color: crimson;
+    color:white;
+    font-size: 16px;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.hiremebtn:hover{
+
+    border: 2px solid crimson;
+    background-color: rgb(31, 31, 31);
+    color: crimson;
+}

@@ -1,0 +1,28 @@
+.hamlist{
+    background-color: rgb(22, 22, 22);
+    height: 100vh;
+}
+
+.button{
+    float:right;
+    background-color: rgb(22, 22, 22);
+    color: azure;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+}
+.button:hover{
+    color: crimson;
+}
+.linklist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linklist li{
+    margin:50px 0 0 0 ;
+}
+.menuname:hover{
+    color: crimson;
+}

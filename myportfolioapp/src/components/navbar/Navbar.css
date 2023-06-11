@@ -1,0 +1,61 @@
+
+*{
+    margin: 0%;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+.logoName{
+    color: azure;
+    font-size: 35px;
+    font-weight: 600;
+}
+.menuname{
+    color: white;
+    font-size: 20px;
+}
+.logosplit{
+    color: rgb(31, 31, 31);
+}
+
+.navbar{
+    /* position: fixed; */
+     /* background-color: rgb(31, 31, 31);; */
+    /* width: 100%; */
+    background-color: crimson;
+    padding: 20px;
+
+}
+
+.max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.menu-list li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.menu-list li :hover{
+    color:black;
+}
+
+.menu-list .hamburger{
+    display: none;
+}
+
+@media (max-width:700px){
+    .menu-list .hamburger{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .menu-list .hamburger :hover{
+        color: black;
+    }
+    .menu-list .menuname{
+        display: none;
+    }
+}
