@@ -11,9 +11,41 @@
 .aboutcontent{
     width:63% ;
     height: 100vh;
-    background-color: rgb(31, 31, 31);
+    /* background-color: rgb(31, 31, 31); */
+}
+.aboutcontent p{
+  
+    font-size: 20px;
 }
 
+.title{
+    text-align: center;
+    margin: 100px 0 0 0 ;
+}
+.webdev{
+    color: crimson;
+}
+.detail{
+    text-indent: 60px;
+    text-align: justify;
+    margin:0 150px 0  145px;
+    line-height: 1.8;
+   
+}
+.cvbtn{
+    margin-left: 145px;
+    padding: 10px;
+    background-color: crimson;
+    color: white;
+    border: 1px solid crimson;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.cvbtn:hover{
+    background-color: white;
+    color: crimson;
+    border: 1px solid crimson;
+}
 @media (max-width:700px){
     .about{
         display: flex;
